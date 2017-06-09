@@ -2,6 +2,10 @@ import java.sql.*;
 
 public class UpdateCar {
 
+  public static void main(String[] args) {
+      System.out.println("This is to add a main function");
+  }
+
     public static void UpdateCarNum(int carNo, int empNo)
         throws SQLException {
 
